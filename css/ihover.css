@@ -1524,7 +1524,10 @@
 .ih-item.circle.effect12 a:hover .img {
   opacity: 0;
   pointer-events: none;
+<<<<<<< HEAD
 	border-radius: 20px;
+=======
+>>>>>>> 695ca2ae1af3c859a0cb71fdd02dd40ca18206cd
 }
 .ih-item.circle.effect12 a:hover .info {
   opacity: 1;
@@ -2980,18 +2983,13 @@
 
 .ih-item.square.effect6 {
   overflow: hidden;
-
-	border:none;
-	border-radius:20px;
 }
 .ih-item.square.effect6.colored .info {
   background: #1a4a72;
   background: rgba(26, 74, 114, 0.6);
-	border-radius: 20px;
 }
 .ih-item.square.effect6.colored .info h3 {
   background: rgba(12, 34, 52, 0.6);
-	border-radius: 20px;
 }
 .ih-item.square.effect6 .img {
   -webkit-transition: all 0.35s ease-in-out;
@@ -3002,7 +3000,6 @@
   -ms-transform: scale(1);
   -o-transform: scale(1);
   transform: scale(1);
-	border-radius: 20px;
 }
 .ih-item.square.effect6 .info {
   background: #333333;
@@ -3012,7 +3009,6 @@
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
-	border-radius:20px;
 }
 .ih-item.square.effect6 .info h3 {
   text-transform: uppercase;
@@ -3031,7 +3027,7 @@
   font-size: 12px;
   position: relative;
   color: #bbb;
-  padding: 100px 20px 20px;
+  padding: 20px 20px 20px;
   text-align: center;
   -webkit-transition: all 0.35s 0.1s linear;
   -moz-transition: all 0.35s 0.1s linear;
@@ -3043,12 +3039,10 @@
   -ms-transform: scale(1.2);
   -o-transform: scale(1.2);
   transform: scale(1.2);
-	border-radius: 20px;
 }
 .ih-item.square.effect6 a:hover .info {
   visibility: visible;
   opacity: 1;
-	border-radius: 20px;
 }
 
 .ih-item.square.effect6.from_top_and_bottom .info h3 {
