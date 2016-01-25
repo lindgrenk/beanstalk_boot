@@ -1,0 +1,82 @@
+
+
+/* navbar */
+
+.navbar {
+	margin-bottom:0;	
+}
+
+.navbar-nav li a {
+	font-size: 1em;	
+	font-weight: bold;
+}
+
+.navbar-brand {
+	padding-top: 0;
+	line-height: 105px;
+	height: 105px;
+}
+
+.navbar-toggle {
+	margin-top: 35.5px;	
+}
+
+.navbar-absolute {
+	position: absolute;	
+}
+
+#logo-header {
+	height: 100%;
+	margin-top: 8px;
+}
+
+
+/* background */
+
+#bg-header {
+	height: 400px;
+	margin-top: 105px;
+}
+
+#bg-header h1 {
+	font-family: 'Varela Round', sans-serif;
+    margin-top: 0px;
+	text-align: center;
+    color: #f4f4f4;
+	font-size: 2.5em;
+    padding-top: 105px;
+    text-shadow: 0px 0px 15px rgba(217, 228, 133, 0.9);
+}
+
+#bg1, #bg2, #bg3 {
+	height: 300px;	
+}
+
+
+
+
+
+
+/* footer */
+
+#logo-footer {
+	height: 80px;	
+}
+
+/* media queries */
+
+@media (min-width: 768px) {
+	.navbar-nav li a, .navbar-brand {
+		padding-top: 0;
+		line-height: 105px;
+		height: 105px;
+	}
+	
+	#bg-header {
+		height: 500px;
+	}
+	
+	#bg1, #bg2, #bg3 {
+		height: 300px;	
+	}
+}
