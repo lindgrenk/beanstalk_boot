@@ -25,9 +25,46 @@
 	position: absolute;	
 }
 
+.nav-head {
+	margin-top: 35.5px;
+}
+
 #logo-header {
 	height: 100%;
 	margin-top: 8px;
+}
+
+a {
+	color: #99c731;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #54544a;
+	text-decoration: none;
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 1.5em;
+}
+h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#about img {
+	width: 60px;
+}
+
+.avatar {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-: grayscale(1);
+    -ms: grayscale(1);
+    filter: grayscale(1);	
 }
 
 
@@ -51,10 +88,6 @@
 #bg1, #bg2, #bg3 {
 	height: 300px;	
 }
-
-
-
-
 
 
 /* footer */
