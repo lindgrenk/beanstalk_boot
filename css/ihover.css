@@ -1524,6 +1524,10 @@
 .ih-item.circle.effect12 a:hover .img {
   opacity: 0;
   pointer-events: none;
+<<<<<<< HEAD
+	border-radius: 20px;
+=======
+>>>>>>> 695ca2ae1af3c859a0cb71fdd02dd40ca18206cd
 }
 .ih-item.circle.effect12 a:hover .info {
   opacity: 1;
