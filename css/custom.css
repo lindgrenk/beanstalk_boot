@@ -64,7 +64,7 @@ HEADER
 .nav-head {
 	margin-top: 35.5px;
 	font-weight: 700;
-	color: #54544a
+	color: #54544a;
 }
 
 #logo-header {
@@ -102,6 +102,15 @@ MAIN SECTION
 	width: 60px;
 	margin-bottom: 40px;
 }
+
+#about p {
+	margin-bottom: 50px;
+}
+
+#about abbr {
+	border: none;
+}
+
 /* portfolio */
 
 .ih-item.square.effect6 {
@@ -200,4 +209,5 @@ MEDIAQUERYS
 	#bg1, #bg2, #bg3 {
 		height: 300px;	
 	}
+
 }
